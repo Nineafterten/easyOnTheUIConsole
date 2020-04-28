@@ -1,32 +1,37 @@
 {
-    "name": "easy-on-the-ui-console",
-    "version": "1.1.0",
-    "description": "A simple UI element to display console messages on the DOM (for times when you can't easily view the developer console.)",
-    "main": "dist/easy.js",
-    "scripts": {
-      "test": "mocha",
-      "build": "browserify ./Matilde/index.js -o dist/easy.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://nineafterten@github.com/nineafterten/easy.git"
-    },
-    "keywords": [
-      "easy",
-      "ui",
-      "console",
-      "log"
-    ],
-    "author": "Cesar Vargas",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/nineafterten/easy/issues"
-    },
-    "homepage": "https://github.com/nineafterten/easy#readme",
-    "devDependencies": {
-      "browserify": "^16.5.0",
-      "chai": "^4.2.0",
-      "jquery": "^3.0.0",
-      "mocha": "^6.2.0"
-    }
+  "name": "easy-on-the-ui-console",
+  "version": "1.1.0",
+  "description": "A simple UI element to display console messages on the DOM (for times when you can't easily view the developer console.)",
+  "main": "dist/easy.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "browserify ./Easy/easy.js -o dist/easy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nineafterten@github.com/nineafterten/easy.git"
+  },
+  "keywords": [
+    "easy",
+    "ui",
+    "console",
+    "log"
+  ],
+  "author": "Doug Greene",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nineafterten/easy/issues"
+  },
+  "homepage": "https://github.com/nineafterten/easy#readme",
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "chai": "^4.2.0",
+    "jquery": "^3.0.0",
+    "mocha": "^6.2.0"
+  },
+  "env": {
+    "commonjs": true,
+    "node": true,
+    "mocha": true
   }
+}
